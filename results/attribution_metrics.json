@@ -1,0 +1,210 @@
+{
+  "journeys": 100000,
+  "conversions": 6992,
+  "conversion_rate_pct": 6.99,
+  "revenue": 556957,
+  "multi_touch_share_pct": 75.5,
+  "top_paths": [
+    {
+      "path": "direct",
+      "conversions": 443,
+      "share_pct": 6.3
+    },
+    {
+      "path": "organic_search",
+      "conversions": 390,
+      "share_pct": 5.6
+    },
+    {
+      "path": "paid_search",
+      "conversions": 384,
+      "share_pct": 5.5
+    },
+    {
+      "path": "email",
+      "conversions": 188,
+      "share_pct": 2.7
+    },
+    {
+      "path": "paid_social",
+      "conversions": 171,
+      "share_pct": 2.4
+    },
+    {
+      "path": "organic_search > direct",
+      "conversions": 161,
+      "share_pct": 2.3
+    },
+    {
+      "path": "paid_search > direct",
+      "conversions": 119,
+      "share_pct": 1.7
+    },
+    {
+      "path": "organic_search > email",
+      "conversions": 116,
+      "share_pct": 1.7
+    }
+  ],
+  "credit_share_pct": {
+    "direct": {
+      "First touch": 15.6,
+      "Last touch": 37.7,
+      "Linear": 27.0,
+      "Markov": 23.3
+    },
+    "organic_search": {
+      "First touch": 24.0,
+      "Last touch": 14.0,
+      "Linear": 19.2,
+      "Markov": 18.4
+    },
+    "email": {
+      "First touch": 7.0,
+      "Last touch": 22.4,
+      "Linear": 15.2,
+      "Markov": 17.2
+    },
+    "paid_search": {
+      "First touch": 18.3,
+      "Last touch": 16.3,
+      "Linear": 18.0,
+      "Markov": 16.9
+    },
+    "paid_social": {
+      "First touch": 15.5,
+      "Last touch": 3.8,
+      "Linear": 8.5,
+      "Markov": 9.0
+    },
+    "affiliate": {
+      "First touch": 7.0,
+      "Last touch": 4.5,
+      "Linear": 6.3,
+      "Markov": 8.0
+    },
+    "display": {
+      "First touch": 12.6,
+      "Last touch": 1.2,
+      "Linear": 5.9,
+      "Markov": 7.3
+    }
+  },
+  "markov_vs_last_touch_pct": {
+    "affiliate": 77.0,
+    "direct": -38.0,
+    "display": 485.0,
+    "email": -23.0,
+    "organic_search": 31.0,
+    "paid_search": 4.0,
+    "paid_social": 135.0
+  },
+  "removal_effect_pct": {
+    "paid_search": 41.2,
+    "paid_social": 21.8,
+    "email": 41.8,
+    "organic_search": 44.7,
+    "display": 17.7,
+    "affiliate": 19.4,
+    "direct": 56.8
+  },
+  "validation": {
+    "corr": 0.9996,
+    "max_abs_error_pts": 0.3,
+    "misallocated_pct": {
+      "First touch": 18.8,
+      "Last touch": 19.7,
+      "Linear": 5.7,
+      "Position-based": 5.3,
+      "Time decay": 6.3,
+      "Markov": 0.4
+    }
+  },
+  "roas": {
+    "Last touch": {
+      "paid_search": 2.86,
+      "paid_social": 0.71,
+      "email": 15.46,
+      "organic_search": 3.1,
+      "display": 0.31,
+      "affiliate": 2.05
+    },
+    "Linear": {
+      "paid_search": 3.15,
+      "paid_social": 1.57,
+      "email": 10.43,
+      "organic_search": 4.32,
+      "display": 1.49,
+      "affiliate": 2.8
+    },
+    "Markov": {
+      "paid_search": 2.95,
+      "paid_social": 1.67,
+      "email": 11.94,
+      "organic_search": 4.09,
+      "display": 1.84,
+      "affiliate": 3.7
+    }
+  },
+  "cpa": {
+    "Last touch": {
+      "paid_search": 28.0,
+      "paid_social": 112.0,
+      "email": 5.0,
+      "organic_search": 26.0,
+      "display": 253.0,
+      "affiliate": 38.0
+    },
+    "Linear": {
+      "paid_search": 25.0,
+      "paid_social": 51.0,
+      "email": 8.0,
+      "organic_search": 19.0,
+      "display": 54.0,
+      "affiliate": 27.0
+    },
+    "Markov": {
+      "paid_search": 27.0,
+      "paid_social": 48.0,
+      "email": 7.0,
+      "organic_search": 19.0,
+      "display": 43.0,
+      "affiliate": 22.0
+    }
+  },
+  "spend": {
+    "paid_search": 32000,
+    "paid_social": 30000,
+    "display": 22000,
+    "email": 8000,
+    "affiliate": 12000,
+    "organic_search": 25000,
+    "direct": 0
+  },
+  "rank_change": {
+    "paid_search": [
+      3,
+      4
+    ],
+    "paid_social": [
+      5,
+      6
+    ],
+    "email": [
+      1,
+      1
+    ],
+    "organic_search": [
+      2,
+      2
+    ],
+    "display": [
+      6,
+      5
+    ],
+    "affiliate": [
+      4,
+      3
+    ]
+  }
+}

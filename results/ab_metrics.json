@@ -1,0 +1,151 @@
+{
+  "power": {
+    "baseline": 0.05,
+    "mde_rel": 0.08,
+    "n_required_per_arm": 48348,
+    "n_control": 61857,
+    "n_treatment": 62143
+  },
+  "srm_p": 0.417,
+  "balance_min_p": 0.157,
+  "conversion": {
+    "control": 5.139,
+    "treatment": 5.468,
+    "diff_pts": 0.329,
+    "diff_ci": [
+      0.079,
+      0.578
+    ],
+    "rel_lift_pct": 6.4,
+    "rel_ci": [
+      1.5,
+      11.5
+    ],
+    "z": 2.58,
+    "p": 0.009800243043444007
+  },
+  "rpv": {
+    "control": 4.85,
+    "treatment": 5.426,
+    "diff": 0.576,
+    "rel_lift_pct": 11.9,
+    "welch_p": 0.00018337582214086217,
+    "boot_ci": [
+      0.282,
+      0.881
+    ],
+    "boot_rel_ci": [
+      5.7,
+      18.7
+    ],
+    "cuped": {
+      "theta": 0.105,
+      "corr": 0.172,
+      "variance_reduction_pct": 2.9,
+      "diff": 0.582,
+      "ci": [
+        0.285,
+        0.879
+      ],
+      "p": 0.0001221477970541653
+    }
+  },
+  "aov": {
+    "control": 94.38,
+    "treatment": 99.23,
+    "welch_p": 0.005071064597223844
+  },
+  "guardrail": {
+    "control_pct": 5.13,
+    "treatment_pct": 5.5,
+    "diff_ci_pts": [
+      -0.72,
+      1.46
+    ],
+    "p": 0.49740620151010695,
+    "margin_pts": 1.5,
+    "passed": true
+  },
+  "segments": [
+    {
+      "dimension": "device",
+      "segment": "desktop",
+      "users": 43526,
+      "control_pct": 6.3583,
+      "treatment_pct": 6.3833,
+      "diff_pts": 0.0249,
+      "ci_low": -0.4343,
+      "ci_high": 0.4839,
+      "rel_lift_pct": 0.3923,
+      "p_raw": 0.9152,
+      "p_holm": 1.0
+    },
+    {
+      "dimension": "device",
+      "segment": "mobile",
+      "users": 74276,
+      "control_pct": 4.42,
+      "treatment_pct": 4.9597,
+      "diff_pts": 0.5396,
+      "ci_low": 0.2356,
+      "ci_high": 0.844,
+      "rel_lift_pct": 12.2089,
+      "p_raw": 0.0005,
+      "p_holm": 0.0025
+    },
+    {
+      "dimension": "device",
+      "segment": "tablet",
+      "users": 6198,
+      "control_pct": 5.2907,
+      "treatment_pct": 5.0702,
+      "diff_pts": -0.2205,
+      "ci_low": -1.3311,
+      "ci_high": 0.8861,
+      "rel_lift_pct": -4.1678,
+      "p_raw": 0.6953,
+      "p_holm": 1.0
+    },
+    {
+      "dimension": "customer_type",
+      "segment": "new",
+      "users": 80444,
+      "control_pct": 3.9734,
+      "treatment_pct": 4.2256,
+      "diff_pts": 0.2522,
+      "ci_low": -0.0219,
+      "ci_high": 0.5264,
+      "rel_lift_pct": 6.3473,
+      "p_raw": 0.0713,
+      "p_holm": 0.261
+    },
+    {
+      "dimension": "customer_type",
+      "segment": "returning",
+      "users": 43556,
+      "control_pct": 7.2945,
+      "treatment_pct": 7.7606,
+      "diff_pts": 0.4661,
+      "ci_low": -0.0295,
+      "ci_high": 0.9619,
+      "rel_lift_pct": 6.3903,
+      "p_raw": 0.0652,
+      "p_holm": 0.261
+    }
+  ],
+  "interaction_p_device": 0.05231836287016023,
+  "stability": {
+    "week_diff_p": 0.411,
+    "week1_lift_pct": 8.5,
+    "week2_lift_pct": 4.3
+  },
+  "impact": {
+    "annual_visitors": 3000000,
+    "annual_rev": 1746882,
+    "annual_rev_ci": [
+      855685,
+      2638079
+    ]
+  },
+  "decision": "SHIP"
+}

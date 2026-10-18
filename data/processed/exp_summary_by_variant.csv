@@ -1,0 +1,3 @@
+variant,users,orders,conversion_pct,revenue_per_visitor,avg_order_value,refund_pct_of_orders
+control,61857,3179.0,5.139,4.8503,94.38,5.127
+treatment,62143,3398.0,5.468,5.4258,99.23,5.503

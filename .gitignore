@@ -1,0 +1,7 @@
+data/raw/
+data/processed/exp_users.csv
+data/processed/attr_paths.csv
+data/warehouse.duckdb
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
