@@ -5,7 +5,7 @@
 ![Credit by model](assets/06_credit_by_model.png)
 
 > **Reports:** [`docs/analysis_report.md`](docs/analysis_report.md) · **Pre-analysis design:** [`docs/experiment_design.md`](docs/experiment_design.md)
-> Companion to [`retention-ltv-analysis`](https://github.com/adityayadavwork/retention-ltv-analysis), whose onboarding recommendation is exactly the kind of change this project shows how to test.
+> Companion to [`retention-ltv-analysis`](https://github.com/adityayadav93/retention-ltv-analysis), whose onboarding recommendation is exactly the kind of change this project shows how to test.
 > *Data is synthetic and seeded. Both datasets come from known generating processes, which allows results to be checked against ground truth.*
 
 ## 1. Business context and problem
